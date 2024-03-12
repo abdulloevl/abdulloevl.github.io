@@ -2,9 +2,9 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
   color: black;
-  background-color: white;
+  background-color: #F3ACAC85;
   transition: all 0.3s ease;
-  animation: 4s fadeIn;
+  animation: 3s fadeIn;
   display: block;
   width: 100%;
 }
@@ -13,8 +13,12 @@ body {
   font-family: Georgia;
   margin: 10px;
   color: white;
-  padding-bottom: 20px;
+  padding: 20px;
   font-style: italic;
+  background-color:#E2C9D985;
+  border-radius:30px;
+  border: 1px solid #ddd;
+  
 }
 
 
@@ -40,20 +44,22 @@ body {
 }
 
 #skills li {
-  border: 1px solid black;
-  background-color: #C1C1C2;
-  animation-name: color;
-  text-align: center;
+  background-color: #E2C9D985;
+ /* animation-name: color;*/
+  text-align: left;
   font-style: italic;
   font-weight: bold;
   font-size: larger;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  
 }
 
 @keyframes color {
-  0% { background-color: white; }
-  20% { background-color: red; }
+  0% { background-color: white;}
+  20% { background-color: red;text-align: center; }
   60% { background-color: green; }
-  100% { background-color: black; }
+  100% { background-color: #FB1FE3; text-align: right;}
 }
 
 #skills li:hover {
@@ -75,7 +81,7 @@ body {
 
 /* Форма контакта */
 #contact form {
-  background-color: #C1C1C2;
+  background-color: #E2C9D985;
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 30px;
@@ -118,7 +124,7 @@ img {
 
 /* Сертификаты */
 #certificates {
-  background-color: #CECECE;
+  background-color: #E2C9D985;
   padding-bottom: 10px;
   border-radius: 30px;
 }
@@ -146,5 +152,6 @@ img {
   text-align: center;
 }
 header{
-  padding-right: 10px;
+  padding: 0px;
+  margin: 0 0 0 0;
 }
